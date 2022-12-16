@@ -12,6 +12,3 @@ class Complexe:
         if self.imaginaire() < 0:
             return str(self.reel()) + " - " + str(-self.imaginaire()) + "i"
         return str(self.reel()) + " + " + str(self.imaginaire()) + "i"
-c = Complexe(1, 2)
-d = Complexe(-3, -4)
-print(c + d)
